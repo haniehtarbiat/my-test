@@ -21,7 +21,7 @@ body{
 .header-menu a{
     display:inline-block;
     text-decoration:none;
-    color:#fff;
+    color:#3F1D8D;
     padding:5px;
     width:70px;
     border-radius:5px;
@@ -34,6 +34,6 @@ body{
     background-color:#00a651;
 }
 #home:hover{
-    background-color:transparent
+    background-color:transparent;
 }
 
