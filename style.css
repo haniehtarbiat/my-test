@@ -1,0 +1,39 @@
+body{
+    direction:rtl;
+    font-family:tahoma;
+    background-color:#e4e4e4;
+}
+.header{
+    width:100%;
+}
+.header-menu{
+     width:100%;   
+}
+.header-menu ul{
+    background-color:#303030;
+}
+.header-menu ul li{
+    display: inline-block;
+    padding:5px;
+    margin:5px 0px;
+    margin-right:5px;
+}
+.header-menu a{
+    display:inline-block;
+    text-decoration:none;
+    color:#fff;
+    padding:5px;
+    width:70px;
+    border-radius:5px;
+    text-align:center;
+}
+#home{
+    background-color:#00a651;
+}
+.header-menu a:hover{
+    background-color:#00a651;
+}
+#home:hover{
+    background-color:transparent
+}
+
