@@ -21,11 +21,16 @@ body{
 .header-menu a{
     display:inline-block;
     text-decoration:none;
-    color:#3F1D8D;
+    color:#fff;
     padding:5px;
     width:70px;
     border-radius:5px;
     text-align:center;
+    transition: background-color 0.4s ease;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+
 }
 #home{
     background-color:#00a651;
@@ -36,4 +41,50 @@ body{
 #home:hover{
     background-color:transparent;
 }
+/*logo part*/
+.logo{
+    height: 350px;
+    background-color: #17b2d3;
+}
+.logo{
+    height: 350px;
+    background-color: #17b2d3;
+    background-image: url(image/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.logo .social{
+    position: relative;
+    top: 295px;
+    float: right;
+    width: 250px;
+    height: 55px;
+    background-color: #177c91;
+}
+.social ul li{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin-left: 15px;
+}
+.social a{
+    display: block;
+    height: 55px;
+    transition: background-color 0.4s ease;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
 
+}
+.social a#face{
+    background-image: url(image/facebook.png);
+}
+.social a#insta{
+    background-image: url(image/instagram.png);
+}
+.social a#twitter {
+background-image: url(image/twitter.png);
+}
+.social a:hover{
+    background-color: #17b2d3;
+}
