@@ -88,16 +88,26 @@ background-image: url(image/twitter.png);
 .social a:hover{
     background-color: #17b2d3;
 }
-
-
-.pic li {
+.post{
+    background-color: gray;
+}
+.post_detail{
     display:inline-block;
-    height:500px;
-    width:500px;
     position: relative;
-    top: 10px;
-    right:150px;
-    left: 100px;
-    margin-left:50px;
+    top:10px;
+    right:100px;
+    left:100px;
+    bottom:10px;
+    margin-left: 150px;
+    background-color: white;
 
 }
+.post_detail h3{
+    padding: 10px;
+
+}
+.post_detail p{
+    padding: 10px;
+}
+
+
